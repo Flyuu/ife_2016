@@ -1,0 +1,67 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+div{
+	border: 1px solid #999;
+	background-color: #FFF;
+	font-family: "宋体";
+}
+
+img{
+	border: 1px solid #999;
+	width: 80px;
+	height: 80px;
+}
+
+h2,p,span{
+	font-size: 14px;
+}
+
+p{
+	line-height: 150%;
+	text-indent: 2em;
+	margin: 10px 0;
+}
+
+#container{
+	overflow: hidden;
+	background-color: #eee;
+	margin: 20px;
+	padding: 20px;
+}
+
+#left{
+	width: 160px;
+	padding: 20px;
+	float: left;
+}
+
+
+#left img{
+    float: left;
+}
+
+
+#left span{
+	float: right;
+	font-weight: bold;
+}
+
+#main{
+	padding: 20px;
+	margin-left:220px;
+	margin-right: 140px;
+}
+
+#right{
+	width: 120px;
+    float: right;
+}
+
+
+#right img{
+	display: block;
+	margin: 20px;
+}
