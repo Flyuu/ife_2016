@@ -32,6 +32,12 @@ p{
 	padding: 20px;
 }
 
+#left{
+	width: 160px;
+	padding: 20px;
+	float: left;
+}
+
 
 #left img{
     float: left;
@@ -43,17 +49,10 @@ p{
 	font-weight: bold;
 }
 
-#left{
-	width: 160px;
-	padding: 20px;
-	float: left;
-}
-
 #main{
 	padding: 20px;
 	margin-left:220px;
 	margin-right: 140px;
-	overflow: hidden;
 }
 
 #right{
