@@ -631,6 +631,7 @@ nav a:visited {
 }
 
 .s4_r p {
+	overflow: hidden;
 	position: relative;
 	float: left;
 	width: 638px;
