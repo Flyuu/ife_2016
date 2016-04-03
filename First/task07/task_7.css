@@ -18,6 +18,13 @@ header,section,footer,.s1_top,
 	overflow: hidden;
 }
 
+hr {
+	border: none;
+	height: 2px;
+	width: 30px;
+	margin: 0 auto;
+}
+
 ul {
 	list-style: none;
 	float: right;
@@ -56,6 +63,7 @@ nav li,.login {
 }
 
 nav a {
+	color: #767777;
 	font-size: 14px;
 	font-family: "Microsoft YaHei";
 	padding: 0 20px 15px;
@@ -118,6 +126,7 @@ nav a:visited {
 }
 
 .s1_top a {
+	color: #fff;
 	font-size: 30px;
 	margin-left: 69px;
 	letter-spacing: 2px;
@@ -212,10 +221,7 @@ nav a:visited {
 }
 
 .s2_middle hr {
-	height: 2px;
-	width: 31px;
 	background-color: #fff;
-	margin: 0 auto;
 }
 
 .s2_middle p {
@@ -301,6 +307,7 @@ nav a:visited {
 }
 
 .s2_middle input {
+	float: left;
 	width: 236px;
 	height: 36px;
 	background-color: #be4e48;
@@ -456,7 +463,7 @@ nav a:visited {
 	font-size: 21px;
 	font-family: SimHei;
 	line-height: 30.36px;
-	margin: 173px auto 26px;
+	margin: 173px auto 0;
 }
 
 .s3_bottom1>a,.s3_bottom2>a {
@@ -468,17 +475,12 @@ nav a:visited {
 	font-family: SimHei;
 }
 
-.s3_bottom1>hr,.s3_bottom2>hr {
-	width: 30px;
-	height: 2px;
-	margin: 26px auto;
-}
-
 .s3_bottom1 p {
 	color: #fff;
 }
 
-.s3_bottom1>hr {
+.s3_bottom1 hr {
+	margin: 26px auto;
 	background-color: #fff;
 }
 
@@ -491,7 +493,8 @@ nav a:visited {
 	color: #323333;
 }
 
-.s3_bottom2>hr {
+.s3_bottom2 hr {
+	margin: 26px auto;
 	background-color: #323333;
 }
 
@@ -538,9 +541,7 @@ nav a:visited {
 }
 
 .s4_top hr {
-	width: 30px;
-	height: 1px;
-	background-color: #323333;
+	background-color: #e74f4d;
 	margin: 12px auto 15px;
 }
 
@@ -584,6 +585,7 @@ nav a:visited {
 }
 
 .s4_l a {
+	color: #767777;
 	line-height: 19.45px;
 	display: inline-block;
 	width: 100%;
