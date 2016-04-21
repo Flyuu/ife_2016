@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test19</title>
+    <style>
+        button{
+            height: 50px;
+            width: 80px;
+            border-radius: 10px;
+            background-color: #5bc0de;
+            font-family: "Microsoft JhengHei";
+            font-size: medium;
+        }
+        #left-output{
+            margin-left: 20px;
+        }
+        #text-input{
+            height: 50px;
+        }
+        #text-table div{
+            display: inline;
+            height: 50px;
+            background-color: red;
+            text-align: center;
+            font-size: 40px;
+            margin-left: 10px;
+        }
+        #text-chart{
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            padding:10px;
+        }
+        #text-chart div{
+            flex: 1;
+            border: solid #000000 1px;
+        }
+    </style>
+</head>
+<body>
+<div id="num-input">
+    <input type="text" id ="text-input" >
+    <button id ="left-input">左侧输入</button>
+    <button id ="right-input">右侧输入</button>
+    <button id ="left-output">左侧输出</button>
+    <button id ="right-output">右侧输出</button>
+    <button id ="sort">排序</button>
+</div>
+<div id="text-table">
+</div>
+<div id="text-chart">
+</div>
+
+<script type="text/javascript" src="task_19.js"></script>
+
+</body>
+</html>
